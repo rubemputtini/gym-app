@@ -9,7 +9,7 @@ const ExerciseCard = ({ exercise }) => {
       <Stack direction="row">
         <Button
           sx={{
-            m1: "21px",
+            ml: "21px",
             color: "#FFF",
             background: "#FFA9A9",
             fontSize: "14px",
@@ -21,7 +21,7 @@ const ExerciseCard = ({ exercise }) => {
         </Button>
         <Button
           sx={{
-            m1: "21px",
+            ml: "21px",
             color: "#FFF",
             background: "#FFCC757",
             fontSize: "14px",
@@ -36,6 +36,7 @@ const ExerciseCard = ({ exercise }) => {
         ml="21px"
         color="#000"
         fontWeight="bold"
+        sx={{ fontSize: { lg: "24px", xs: "20px" } }}
         mt="11px"
         pb="10px"
         textTransform="capitalize"
